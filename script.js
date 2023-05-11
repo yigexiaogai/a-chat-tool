@@ -30,6 +30,7 @@ const Peer = window.Peer;
 
   const peer = (window.peer = new Peer({
     key: '2068d263-89a7-4ce1-adc0-03972db9b30b',
+    Credential,
     debug: 3,
   }));
 
